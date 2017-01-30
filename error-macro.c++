@@ -24,7 +24,7 @@ void err(vector<string>::iterator it, T a, Args... args)
 
 int main()
 {
-  int a = 4, b = 8;
+  int a = 4, b = 4;
   string c="9()-=$";
   error(a, b, c);
 }
